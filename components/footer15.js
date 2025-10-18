@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from "react";
 
-import PropTypes from 'prop-types'
-import { useTranslations } from 'next-intl'
+import PropTypes from "prop-types";
+import { useTranslations } from "next-intl";
 
 const Footer15 = (props) => {
   return (
@@ -85,11 +85,10 @@ const Footer15 = (props) => {
             </div>
           </div>
           <div className="footer15-credits">
-            <div className="footer15-row"></div>
             <span className="footer15-content3">
               {props.copyright ?? (
                 <Fragment>
-                  <span className="footer15-text6">© 2025Apex Soluções</span>
+                  <span className="footer15-text6">© 2025 Apex Soluções</span>
                 </Fragment>
               )}
             </span>
@@ -141,7 +140,7 @@ const Footer15 = (props) => {
           }
           .footer15-content1 {
             font-size: 2rem;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-weight: 400;
             text-transform: none;
             text-decoration: none;
@@ -157,7 +156,7 @@ const Footer15 = (props) => {
           .footer15-content21 {
             font-size: 30px;
             align-self: stretch;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-weight: 300;
             line-height: 1.15;
             text-transform: none;
@@ -166,7 +165,7 @@ const Footer15 = (props) => {
           .footer15-content22 {
             font-size: 30px;
             align-self: stretch;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-weight: 300;
             line-height: 1.15;
             text-transform: none;
@@ -250,7 +249,7 @@ const Footer15 = (props) => {
           .footer15-content3 {
             font-size: 18px;
             align-self: center;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-weight: 300;
             line-height: 1.15;
             text-transform: none;
@@ -349,18 +348,18 @@ const Footer15 = (props) => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
 Footer15.defaultProps = {
   content2: undefined,
   text: undefined,
-  image1Src: '6cc34e33-ce08-45a1-ab8b-59986aaca1a6',
+  image1Src: "6cc34e33-ce08-45a1-ab8b-59986aaca1a6",
   content1: undefined,
   content21: undefined,
-  image1Alt: 'logo',
+  image1Alt: "logo",
   copyright: undefined,
-}
+};
 
 Footer15.propTypes = {
   content2: PropTypes.element,
@@ -370,6 +369,6 @@ Footer15.propTypes = {
   content21: PropTypes.element,
   image1Alt: PropTypes.string,
   copyright: PropTypes.element,
-}
+};
 
-export default Footer15
+export default Footer15;
